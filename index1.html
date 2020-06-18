@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicon -->
+    <link rel="icon" sizes="48x48" href="images/favicon.png">
+    <link rel="icon" sizes="96x96" href="images/favicon.png">
+    <link rel="icon" sizes="144x144" href="images/favicon.png">
+    <link rel="icon" sizes="192x192" href="images/favicon.png">
+    <link rel="icon" sizes="256x256" href="images/favicon.png">
+    <link rel="icon" sizes="384x384" href="images/favicon.png">
+    <link rel="icon" sizes="512x512" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
+    <link rel="mask-icon" href="images/favicon.svg" color="#ff0000">
+    <meta name="msapplication-TileColor" content="#ff0000">
+    <meta name="msapplication-TileImage" content="images/favicon.png">
+
+    <meta property="og:url" content="https://www.google.co.th/?gws_rd=ssl" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="test" />
+    <meta property="og:description" content="test" />
+    <meta property="og:image" content="test" />
+    <meta property="og:locale" content="th_TH">
+    <meta property="og:site_name" content="test">
+
+    <meta name="keywords" content="test">
+    <meta name="title" content="test">
+    <meta name="description" content="test">
+    <meta name="author" content="test">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="test">
+    <meta name="twitter:title" content="test">
+    <meta name="twitter:image" content="test">
+
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="googlebot-news" content="index,follow" />
+
+    <!-- <link rel="canonical" href="https://www.google.co.th/?gws_rd=ssl" /> -->
+
+    <meta name="language" content="th-TH" />
+    <meta name="distribution" content="Global" />
+    <meta name="rating" content="General" />
+    <meta name="creator" content="test" />
+    <meta name="publisher" content="test" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Custom Resources -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/687efd5ffa.js" crossorigin="anonymous"></script>
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <!-- Header menu -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item active mr-4">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown mr-4">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Browse Recipes
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Sub menu #1</a>
+                                    <a class="dropdown-item" href="#">Sub menu #2</a>
+                                    <a class="dropdown-item" href="#">Sub menu #3</a>
+                                </div>
+                            </li>
+                            <li class="nav-item mr-4">
+                                <a class="nav-link" href="#">Submit Recipe</a>
+                            </li>
+                            <li class="nav-item dropdown mr-4">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Sub menu #1</a>
+                                    <a class="dropdown-item" href="#">Sub menu #2</a>
+                                    <a class="dropdown-item" href="#">Sub menu #3</a>
+                                </div>
+                            </li>
+                            <li class="nav-item mr-4">
+                                <a class="nav-link" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="search">
+                            <a href="#" id="btnSearch"><i class="fas fa-search" id="searchIcon"></i></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Header menu -->
+
+    <!-- Search Box -->
+    <div id="panel-search">
+        <form method="get" class="search-form" action="#">
+            <label>
+                <span class="screen-reader-text"></span>
+                <input type="search" class="search-field" placeholder="Search Recipes" value="" name="cooked_search_s">
+            </label>
+            <input type="submit" class="search-submit" value="Submit">
+        </form>
+    </div>
+    <!-- Search Box -->
+
+    <!-- Slideshow -->
+    <section class="home-slide">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div id="carouselCaptions" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <picture>
+                                    <source srcset='images/slide/1.webp' type='image/webp'>
+                                    <source srcset='images/slide/1.jpf' type='image/jp2'>
+                                    <img src="images/slide/1.jpg" class="d-block w-100" alt="Ultimate Cheese Burger">
+                                </picture>
+                                <div class="slide-filter"></div>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                    <h1><a href="#">Ultimate Cheese Burger</a></h1>
+                                    <p>A handful of simple ingredients typify the fresh, vibrant flavors of Greek
+                                        cooking.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <picture>
+                                    <source srcset='images/slide/2.webp' type='image/webp'>
+                                    <source srcset='images/slide/2.jpf' type='image/jp2'>
+                                    <img src="images/slide/2.jpg" class="d-block w-100" alt="Chicken Tikka Masala">
+                                </picture>
+                                <div class="slide-filter"></div>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <h5><a href="#">Chicken Tikka Masala</a></h5>
+                                    <p>A handful of simple ingredients typify the fresh, vibrant flavors of Greek
+                                        cooking.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <picture>
+                                    <source srcset='images/slide/3.webp' type='image/webp'>
+                                    <source srcset='images/slide/3.jpf' type='image/jp2'>
+                                    <img src="images/slide/3.jpg" class="d-block w-100" alt="Baked Chicken Breast">
+                                </picture>
+                                <div class="slide-filter"></div>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <h5><a href="#">Baked Chicken Breast</a></h5>
+                                    <p>A handful of simple ingredients typify the fresh, vibrant flavors of Greek
+                                        cooking.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <picture>
+                                    <source srcset='images/slide/4.webp' type='image/webp'>
+                                    <source srcset='images/slide/4.jpf' type='image/jp2'>
+                                    <img src="images/slide/4.jpg" class="d-block w-100" alt="Raspberry Tartlet">
+                                </picture>
+                                <div class="slide-filter"></div>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                    <h5><a href="#">Raspberry Tartlet</a></h5>
+                                    <p>A handful of simple ingredients typify the fresh, vibrant flavors of Greek
+                                        cooking.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselCaptions" role="button" data-slide="prev">
+                            <i class="fas fa-long-arrow-alt-left"></i>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselCaptions" role="button" data-slide="next">
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Slideshow -->
+
+    <!-- Category Section -->
+    <section class="home-category">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col text-center">
+                    <p class="sub">Choose a Category</p>
+                    <h2 class="title">Recipe Categories</h2>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-2 offset-md-1 col-sm-5 offset-sm-1 col-xs-6 text-center cate-div">
+                    <picture>
+                        <source srcset='images/category/1.webp' type='image/webp'>
+                        <source srcset='images/category/1.jpf' type='image/jp2'>
+                        <img src="images/category/1.jpg" class="rounded-circle" alt="Appetizers">
+                    </picture>
+                    <a href="#" class="category">Appetizers</a>
+                </div>
+                <div class="col-md-2 col-sm-5 col-xs-6 text-center cate-div">
+                    <picture>
+                        <source srcset='images/category/2.webp' type='image/webp'>
+                        <source srcset='images/category/2.jpf' type='image/jp2'>
+                        <img src="images/category/2.jpg" class="rounded-circle" alt="Beef">
+                    </picture>
+                    <a href="#" class="category">Beef</a>
+                </div>
+                <div class="col-md-2 offset-md-0 col-sm-5 offset-sm-1 col-xs-6 text-center cate-div">
+                    <picture>
+                        <source srcset='images/category/3.webp' type='image/webp'>
+                        <source srcset='images/category/3.jpf' type='image/jp2'>
+                        <img src="images/category/3.jpg" class="rounded-circle" alt="Chicken">
+                    </picture>
+                    <a href="#" class="category">Chicken</a>
+                </div>
+                <div class="col-md-2 col-sm-5 col-xs-6 text-center cate-div">
+                    <picture>
+                        <source srcset='images/category/4.webp' type='image/webp'>
+                        <source srcset='images/category/4.jpf' type='image/jp2'>
+                        <img src="images/category/4.jpg" class="rounded-circle" alt="Vegetarian">
+                    </picture>
+                    <a href="#" class="category">Vegetarian</a>
+                </div>
+                <div class="col-md-2 offset-md-0 col-sm-6 offset-sm-3 col-xs-6 offset-xs-3 text-center cate-div">
+                    <picture>
+                        <source srcset='images/category/5.webp' type='image/webp'>
+                        <source srcset='images/category/5.jpf' type='image/jp2'>
+                        <img src="images/category/5.jpg" class="rounded-circle" alt="Desserts">
+                    </picture>
+                    <a href="#" class="category">Desserts</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Category Section -->
+
+    <!-- Recent Recipes -->
+    <section class="home-recent">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col text-center">
+                    <p class="sub">Recent Recipes</p>
+                    <h2 class="title">Latest Reciepes</h2>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <picture>
+                            <source srcset='images/recent/1.webp' type='image/webp'>
+                            <source srcset='images/recent/1.jpf' type='image/jp2'>
+                            <img src="images/recent/1.jpg" class="card-img-top" alt="Tart Pecan Pie">
+                        </picture>
+                        <div class="card-body">
+                            <h5 class="card-title">Tart Pecan Pie</h5>
+                            <span>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <p class="card-text">A handful of simple ingredients typify the fresh, vibrant flavors of
+                                Greek cooking.</p>
+                            <div class="author">
+                                <picture>
+                                    <source srcset='images/jane.webp' type='image/webp'>
+                                    <source srcset='images/jane.jpf' type='image/jp2'>
+                                    <img src="images/jane.jpg" class="rounded-circle" alt="Jane Doe">
+                                </picture>
+                                <p>By <b>Jane Doe</b></p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col col-left text-center">
+                                    <i class="far fa-folder-open"></i>
+                                    <a href="#">Deserts</a>
+                                </div>
+                                <div class="col col-right text-center">
+                                    <i class="far fa-clock"></i>
+                                    <a href="#">1 hr 20 mins</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <picture>
+                            <source srcset='images/recent/2.webp' type='image/webp'>
+                            <source srcset='images/recent/2.jpf' type='image/jp2'>
+                            <img src="images/recent/2.jpg" class="card-img-top" alt="Tart Pecan Pie">
+                        </picture>
+                        <div class="card-body">
+                            <h5 class="card-title">Tart Pecan Pie</h5>
+                            <span>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <p class="card-text">A handful of simple ingredients typify the fresh, vibrant flavors of
+                                Greek cooking.</p>
+                            <div class="author">
+                                <picture>
+                                    <source srcset='images/jane.webp' type='image/webp'>
+                                    <source srcset='images/jane.jpf' type='image/jp2'>
+                                    <img src="images/jane.jpg" class="rounded-circle" alt="Jane Doe">
+                                </picture>
+                                <p>By <b>Jane Doe</b></p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col col-left text-center">
+                                    <i class="far fa-folder-open"></i>
+                                    <a href="#">Deserts</a>
+                                </div>
+                                <div class="col col-right text-center">
+                                    <i class="far fa-clock"></i>
+                                    <a href="#">30 mins</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <picture>
+                            <source srcset='images/recent/3.webp' type='image/webp'>
+                            <source srcset='images/recent/3.jpf' type='image/jp2'>
+                            <img src="images/recent/3.jpg" class="card-img-top" alt="Tart Pecan Pie">
+                        </picture>
+                        <div class="card-body">
+                            <h5 class="card-title">Tart Pecan Pie</h5>
+                            <span>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </span>
+                            <p class="card-text">A handful of simple ingredients typify the fresh, vibrant flavors of
+                                Greek cooking.</p>
+                            <div class="author">
+                                <picture>
+                                    <source srcset='images/jane.webp' type='image/webp'>
+                                    <source srcset='images/jane.jpf' type='image/jp2'>
+                                    <img src="images/jane.jpg" class="rounded-circle" alt="Jane Doe">
+                                </picture>
+                                <p>By <b>Jane Doe</b></p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col col-left text-center">
+                                    <i class="far fa-folder-open"></i>
+                                    <a href="#">Deserts</a>
+                                </div>
+                                <div class="col col-right text-center">
+                                    <i class="far fa-clock"></i>
+                                    <a href="#">20 mins</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <picture>
+                            <source srcset='images/recent/4.webp' type='image/webp'>
+                            <source srcset='images/recent/4.jpf' type='image/jp2'>
+                            <img src="images/recent/4.jpg" class="card-img-top" alt="Tart Pecan Pie">
+                        </picture>
+                        <div class="card-body">
+                            <h5 class="card-title">Tart Pecan Pie</h5>
+                            <span>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <p class="card-text">A handful of simple ingredients typify the fresh, vibrant flavors of
+                                Greek cooking.</p>
+                            <div class="author">
+                                <picture>
+                                    <source srcset='images/jane.webp' type='image/webp'>
+                                    <source srcset='images/jane.jpf' type='image/jp2'>
+                                    <img src="images/jane.jpg" class="rounded-circle" alt="Jane Doe">
+                                </picture>
+                                <p>By <b>Jane Doe</b></p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col col-left text-center">
+                                    <i class="far fa-folder-open"></i>
+                                    <a href="#">Deserts</a>
+                                </div>
+                                <div class="col col-right text-center">
+                                    <i class="far fa-clock"></i>
+                                    <a href="#">1 hr 20 mins</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <picture>
+                            <source srcset='images/recent/5.webp' type='image/webp'>
+                            <source srcset='images/recent/5.jpf' type='image/jp2'>
+                            <img src="images/recent/5.jpg" class="card-img-top" alt="Tart Pecan Pie">
+                        </picture>
+                        <div class="card-body">
+                            <h5 class="card-title">Tart Pecan Pie</h5>
+                            <span>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <p class="card-text">A handful of simple ingredients typify the fresh, vibrant flavors of
+                                Greek cooking.</p>
+                            <div class="author">
+                                <picture>
+                                    <source srcset='images/jane.webp' type='image/webp'>
+                                    <source srcset='images/jane.jpf' type='image/jp2'>
+                                    <img src="images/jane.jpg" class="rounded-circle" alt="Jane Doe">
+                                </picture>
+                                <p>By <b>Jane Doe</b></p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col col-left text-center">
+                                    <i class="far fa-folder-open"></i>
+                                    <a href="#">Deserts</a>
+                                </div>
+                                <div class="col col-right text-center">
+                                    <i class="far fa-clock"></i>
+                                    <a href="#">1 hr 35 mins</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <picture>
+                            <source srcset='images/recent/6.webp' type='image/webp'>
+                            <source srcset='images/recent/6.jpf' type='image/jp2'>
+                            <img src="images/recent/6.jpg" class="card-img-top" alt="Tart Pecan Pie">
+                        </picture>
+                        <div class="card-body">
+                            <h5 class="card-title">Tart Pecan Pie</h5>
+                            <span>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <p class="card-text">A handful of simple ingredients typify the fresh, vibrant flavors of
+                                Greek cooking.</p>
+                            <div class="author">
+                                <picture>
+                                    <source srcset='images/jane.webp' type='image/webp'>
+                                    <source srcset='images/jane.jpf' type='image/jp2'>
+                                    <img src="images/jane.jpg" class="rounded-circle" alt="Jane Doe">
+                                </picture>
+                                <p>By <b>Jane Doe</b></p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col col-left text-center">
+                                    <i class="far fa-folder-open"></i>
+                                    <a href="#">Deserts</a>
+                                </div>
+                                <div class="col col-right text-center">
+                                    <i class="far fa-clock"></i>
+                                    <a href="#">1 hr 35 mins</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <a href="#" class="btn btn-warning">View ALl Recipes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Recent Recipes -->
+
+    <!-- Showcase -->
+    <section class="home-showcase">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col video">
+                    <a href="#" class="btn-play" data-toggle="modal" data-target="#YouTubeModal">
+                        <i class="fas fa-play"></i>
+                    </a>
+                    <h3 class="mx-auto">Easily include videos with your recipe instructions</h3>
+                </div>
+            </div>
+            <div class="row follow">
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <picture>
+                        <source srcset='images/showcase/1.webp' type='image/webp'>
+                        <source srcset='images/showcase/1.jpf' type='image/jp2'>
+                        <img src="images/showcase/1.jpg" alt="Follow on Instagram">
+                    </picture>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <picture>
+                        <source srcset='images/showcase/2.webp' type='image/webp'>
+                        <source srcset='images/showcase/2.jpf' type='image/jp2'>
+                        <img src="images/showcase/2.jpg" alt="Follow on Instagram">
+                    </picture>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <picture>
+                        <source srcset='images/showcase/3.webp' type='image/webp'>
+                        <source srcset='images/showcase/3.jpf' type='image/jp2'>
+                        <img src="images/showcase/3.jpg" alt="Follow on Instagram">
+                    </picture>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <picture>
+                        <source srcset='images/showcase/4.webp' type='image/webp'>
+                        <source srcset='images/showcase/4.jpf' type='image/jp2'>
+                        <img src="images/showcase/4.jpg" alt="Follow on Instagram">
+                    </picture>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <picture>
+                        <source srcset='images/showcase/5.webp' type='image/webp'>
+                        <source srcset='images/showcase/5.jpf' type='image/jp2'>
+                        <img src="images/showcase/5.jpg" alt="Follow on Instagram">
+                    </picture>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <picture>
+                        <source srcset='images/showcase/6.webp' type='image/webp'>
+                        <source srcset='images/showcase/6.jpf' type='image/jp2'>
+                        <img src="images/showcase/6.jpg" alt="Follow on Instagram">
+                    </picture>
+                </div>
+                <a href="https://www.instagram.com/" target="_blank" class="btn-follow">
+                    <i class="fab fa-instagram">&nbsp;Follow on Instagram</i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Showcase -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 footer">
+                    <h2 class="title">Subscribe</h2>
+                    <p class="sub">Register and get notified about all the news & updates before it gets too late.</p>
+                    <form action="#" method="post">
+                        <input type="text" placeholder="Your email address">
+                        <button type="submit" class="btn btn-submit">Sign up</button>
+                    </form>
+                </div>
+                <div class="col-md-4 footer">
+                    <h2 class="title">Explore</h2>
+                    <ul class="sitemap">
+                        <li><a href="#">Browse Recipes</a></li>
+                        <li><a href="#">Submit a Recipe</a></li>
+                        <li><a href="#">Our Chefs</a></li>
+                        <li><a href="#">Latest News</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footer">
+                    <h2 class="title">Contact</h2>
+                    <ul class="contact">
+                        <li>
+                            <span class="icon"><i aria-hidden="true" class="fas fa-map-marker-alt"></i></span>
+                            <span><a
+                                    href="https://www.google.com/maps/dir/current+location/California,+USA/@1.377908,83.1881784,3z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x311d7d6558767fb1:0x40100b25de29080!2m2!1d100.6252859!2d13.8963841!1m5!1m1!1s0x808fb9fe5f285e3d:0x8b5109a227086f55!2m2!1d-119.4179324!2d36.778261">787
+                                    Mark View Street,<br>New Town, California</a></span>
+                        </li>
+                        <li>
+                            <span class="icon"><i aria-hidden="true" class="fas fa-envelope"></i></span>
+                            <span><a href="mailto:needhelp@thatix.com">needhelp@thatix.com</a></span>
+                        </li>
+                        <li>
+                            <span class="icon"><i aria-hidden="true" class="fas fa-phone"></i></span>
+                            <span><a href="tel:666 888 0000">666 888 0000</a></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="YouTubeModal" tabindex="-1" role="dialog" aria-labelledby="YouTubeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <iframe class="w-100" height="600" src="https://www.youtube.com/embed/gVgq_bSOH2U" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+
+    <script>
+        $("#btnSearch").click(function () {
+            $("#searchIcon").toggleClass("fa-search fa-times");
+            $("#panel-search").toggleClass("active");
+        });
+    </script>
+</body>
+
+</html>
